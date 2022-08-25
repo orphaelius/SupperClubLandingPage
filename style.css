@@ -1,0 +1,84 @@
+body {
+    background-color: #1f2122;
+    background-image:url(5.jpg);
+    background-size: 50rem;    
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Aboreto', cursive;
+
+    /* font-family: 'Forum', cursive; */
+}
+
+/* left div */
+.left-elements {
+    margin-left: 4rem;
+}
+
+.top-line {
+    z-index: 9;
+    border-bottom: 2px solid #bcbfc0;  
+    
+      
+}
+
+.supper-img {
+    float: left;
+    width: 30rem;
+    margin-top: 0rem;
+    margin-left: -4rem;    
+}
+
+.link-container {
+    
+    margin-top: -3rem;
+    margin-right: 50rem;
+    margin-left: 10rem;
+    float: right;
+    
+
+}
+
+.link-head {
+    font-family: 'Forum', cursive;
+    color: rgb(255, 255, 255);
+    margin-right: 3rem;
+    /* display: flex;
+    flex-direction: row;     */
+    
+}
+
+input, select {
+    width: 15rem;
+    /* position: relative; */
+    padding: 12px 20px;
+    margin-top: 1rem;
+    margin-left: 15rem;
+    margin-bottom: 1rem;    
+    border: 1px solid #ccc;
+    border-radius: 4px;    
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;    
+}
+  
+  .input-head {
+    margin-left: 15rem;
+} 
+
+.in {
+    width: 15rem;
+}
+
+.sub-button {
+    width: 10rem;
+}
+
+.input-head { 
+    color: rgb(255, 255, 255);
+}
+
+.input-container {    
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: -15rem;    
+}
